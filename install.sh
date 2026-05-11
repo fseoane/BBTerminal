@@ -11,7 +11,7 @@
 set -euo pipefail
 
 REPO_URL="https://github.com/fseoane/BBTerminal.git"
-INSTALL_DIR="${INSTALL_DIR:-$HOME/BB-Terminal}"
+INSTALL_DIR="${INSTALL_DIR:-$HOME/BBTerminal}"
 SKIP_LAUNCH="${SKIP_LAUNCH:-}"
 
 AMBER='\033[33m'; GREEN='\033[32m'; RED='\033[31m'; DIM='\033[2m'; BOLD='\033[1m'; RST='\033[0m'
