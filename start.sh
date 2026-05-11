@@ -81,6 +81,7 @@ ${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
 
 #while :; do sleep 10; done
+sleep 5
 while pgrep -x "node" >/dev/null; do
     echo "node is running..."
     sleep 5 # Check every 5 seconds
