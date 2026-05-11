@@ -21,7 +21,7 @@ curl -fsSL https://raw.githubusercontent.com/fseoane/BBTerminal/main/install.sh 
 That's it. The installer will:
 
 1. Check that `git`, Python 3.10+, and Node.js 18+ are on your system (and tell you exactly how to install them if not)
-2. Clone this repo to `~/BB-Terminal`
+2. Clone this repo to `~/BBTerminal`
 3. Install OpenBB Platform and all its data providers (~3 min)
 4. Install the UI dependencies (~1 min)
 5. Launch both servers and open the terminal in your browser
@@ -31,7 +31,7 @@ That's it. The installer will:
 ### Every launch after that
 
 ```bash
-cd ~/BB-Terminal
+cd ~/BBTerminal
 ./start.sh     # launches API + UI, opens your browser
 ./stop.sh      # when you're done
 ```
@@ -51,7 +51,7 @@ Fair enough — that pattern is a real risk if you don't know what's in the scri
 
 ```bash
 git clone https://github.com/fseoane/BBTerminal.git
-cd BB-Terminal
+cd BBTerminal
 ./setup.sh       # installs OpenBB + UI (~3-5 min)
 ./start.sh       # launches the terminal
 ```
