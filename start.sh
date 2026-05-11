@@ -80,4 +80,9 @@ ${AMBER}  BBterminal is live${RST}
 ${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RST}
 EOF
 
-while :; do sleep 10; done
+#while :; do sleep 10; done
+while pgrep -x "vite" >/dev/null; do
+    echo "Vite is running..."
+    sleep 5 # Check every 5 seconds
+done
+echo "Vite has stopped. Exiting"
