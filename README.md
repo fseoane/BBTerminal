@@ -50,7 +50,7 @@ The UI lives at **http://localhost:5173/**. All data works out of the box via **
 Fair enough — that pattern is a real risk if you don't know what's in the script. You can read [`install.sh`](./install.sh) first, or skip it entirely and run the steps yourself:
 
 ```bash
-git clone https://github.com/vaughanf1/BB-Terminal.git
+git clone https://github.com/fseoane/BBTerminal.git
 cd BB-Terminal
 ./setup.sh       # installs OpenBB + UI (~3-5 min)
 ./start.sh       # launches the terminal
