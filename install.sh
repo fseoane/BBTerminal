@@ -2,7 +2,7 @@
 # BBterminal — one-line installer
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/vaughanf1/BB-Terminal/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/fseoane/BBTerminal/main/install.sh | bash
 #
 # Environment overrides:
 #   INSTALL_DIR=~/somewhere    # where to clone (default: ~/BB-Terminal)
@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-REPO_URL="https://github.com/vaughanf1/BB-Terminal.git"
+REPO_URL="https://github.com/fseoane/BBTerminal.git"
 INSTALL_DIR="${INSTALL_DIR:-$HOME/BB-Terminal}"
 SKIP_LAUNCH="${SKIP_LAUNCH:-}"
 
@@ -83,7 +83,7 @@ To reinstall, remove it first:
   rm -rf "$INSTALL_DIR"
 
 Or install somewhere else:
-  INSTALL_DIR=~/my-path curl -fsSL https://raw.githubusercontent.com/vaughanf1/BB-Terminal/main/install.sh | bash
+  INSTALL_DIR=~/my-path curl -fsSL https://raw.githubusercontent.com/fseoane/BBTerminal/main/install.sh | bash
 
 EOF
   exit 1
