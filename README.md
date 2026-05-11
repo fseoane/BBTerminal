@@ -15,7 +15,7 @@ Built on [OpenBB](https://github.com/OpenBB-finance/OpenBB) + Vite + React + Typ
 Paste this into your terminal (macOS or Linux):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/vaughanf1/BB-Terminal/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fseoane/BBTerminal/main/install.sh | bash
 ```
 
 That's it. The installer will:
