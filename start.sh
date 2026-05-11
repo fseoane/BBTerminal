@@ -61,9 +61,9 @@ fi
 # -------- Open browser --------
 sleep 1
 URL="http://localhost:$UI_PORT/"
-#if command -v open >/dev/null 2>&1; then open "$URL"
-#elif command -v xdg-open >/dev/null 2>&1; then xdg-open "$URL"
-#fi
+if command -v open >/dev/null 2>&1; then open "$URL"
+elif command -v xdg-open >/dev/null 2>&1; then xdg-open "$URL"
+fi
 
 cat <<EOF
 
