@@ -8,6 +8,7 @@ export default defineConfig({
     alias: { "@": path.resolve(__dirname, "src") },
   },
   server: {
+    allowedHosts: ['yecla.mooo.com'],
     port: 5173,
     strictPort: false,
     proxy: {
