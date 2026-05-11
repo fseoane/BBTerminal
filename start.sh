@@ -81,8 +81,8 @@ ${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
 
 #while :; do sleep 10; done
-while pgrep -x "vite" >/dev/null; do
-    echo "Vite is running..."
+while pgrep -x "node" >/dev/null; do
+    echo "node is running..."
     sleep 5 # Check every 5 seconds
 done
-echo "Vite has stopped. Exiting"
+echo "node has stopped. Exiting"
