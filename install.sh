@@ -28,7 +28,7 @@ cat <<'BANNER'
   ██████  ██████         ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████
 
   Bloomberg-style intelligence dashboard — powered by OpenBB
-  https://github.com/vaughanf1/BB-Terminal
+  https://github.com/fseoane/BBTerminal
 
 BANNER
 
